@@ -1,0 +1,70 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+div{
+  width: 100px;
+  height: 100px;
+  border: 3px solid yellow;
+  background: red;
+  margin: 10px;
+}
+#color2{
+  text-align: center;
+  background: teal;
+  color: mediumaquamarine;
+  border: 3px dashed lightblue;
+}
+.color3{
+  text-align: center;
+  background: #FF0ABC;
+  color: #FFFFFF;
+  border: 3px dashed #AAAAAA;
+}
+#color4 {
+  text-align: center;
+  background: tan;
+  color: peru;
+  border: 3px dashed sienna;
+}
+.color5{
+  text-align: center;
+  background: rgb(20, 40, 100) ;
+  color: rgb(0,10,20);
+  border: 3px dashed rgb(30,21,69);
+}
+.color6{
+  text-align: center;
+  background: rgb(10%, 30%, 30%) ;
+  color: rgb(40%,50%,70%);
+  border: 3px dashed rgb(30%,21%,69%);
+}
+
+.color7{
+  text-align: center;
+  background: linear-gradient(navy,skyBlue) ;
+}
+
+.color8{
+  text-align: center;
+  background: rgb(20, 50, 30,0.1) ;
+}
+
+.color9{
+  text-align: center;
+  background: linear-gradient(to right,purple, indigo,slateBlue);
+}
+
+.color10{
+  text-align: center;
+  background: linear-gradient(180deg,indianREd, red,darkRed,violet,black);
+  
+}
+
+h1{
+  background: linear-gradient(darkRed,violet,navy,darkSlateGray); -webkit-background-clip:tex;
+  color:black;
+}
+body{
+  background: rosybrown;
+}

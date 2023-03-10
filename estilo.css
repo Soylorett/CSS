@@ -1,0 +1,60 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    text-align: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(18,60,111,1) 100%);
+}
+#imagen{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+#imagen:hover{
+    transform: scale(1.2);
+    transform: rotate(1080deg);
+    transition: 1s all ease;
+}
+h1{
+    color: blueviolet;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black;
+    margin: 20px;
+
+}
+h2{
+    color: rgb(67, 64, 204);
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgb(230, 216, 216);
+    margin: 10px;
+
+}
+a{
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px auto;
+    text-decoration: none;
+    display: block;
+    background: black;
+    color: aliceblue;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 10px rgb(12, 9, 170);
+
+}
+a:hover{
+    background: blue;
+    color: blanchedalmond;
+    transform: scale(1.2);
+    transform: 2s all ease;
+}
+
+a:active{
+    transform: scale(1.0);
+    background: rgb(216, 20, 20);
+    color: aliceblue;
+    transition: 1s all ease;
+}
