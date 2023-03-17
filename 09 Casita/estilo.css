@@ -1,0 +1,142 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  padding-top: 40px;
+}
+.casita{
+  position:relative;
+  width: 800px;
+  height: 500px;
+  background: black;
+  margin:auto;
+}
+.sol{
+  width: 150px;
+  height: 150px;
+  background: gold;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  border-radius: 100%;
+  box-shadow: 0 0 70px orangered;
+}
+.base{
+  width: 800px;
+  height: 30px;
+  background: limegreen;
+  position: absolute;
+  bottom: 0px;
+  box-shadow: 0px 0px 80px darkgreen;
+}
+.casa{
+  width: 400px;
+  height: 250px;
+  background: linear-gradient(deepSkyblue, midnightblue);
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  
+  box-shadow: 0 0 50px white;
+}
+.techo{
+  width: 450px;
+  height: 30px;
+  background: black;
+  position: absolute;
+  bottom: 280px;
+  left: 75px;
+  
+  box-shadow: 0 0 30px whitesmoke;
+}
+.chi1{
+  width: 50px;
+  height:100px;
+  background: whitesmoke;
+  position: absolute;
+  bottom: 310px;
+  left: 380px;
+  
+  box-shadow: 0 0 20px white;
+}
+.chi2{
+  width: 70px;
+  height:20px;
+  background: black;
+  position: absolute;
+  bottom: 410px;
+  left: 370px;
+  
+  box-shadow: 0 0 30px yellow;
+}
+.arbolito1{
+  position: absolute;
+  border-radius: 50% 50% 50% 50%;
+  width: 120px;
+  height: 120px;
+  background: lime;
+  margin: 10px;
+  top: 250px;
+  left: 600px;
+  z-index:3;
+  box-shadow: 0px 0px 50px darkgreen;
+}
+.tronco1{
+  position: absolute;
+  width: 25px;
+  height: 100px;
+  top: 360px;
+  left: 650px;
+  background: saddlebrown;
+  margin: 10px;
+  box-shadow: 0px 0px 50px white;
+}
+.puertita {
+  position: absolute;
+  width: 70px;
+  height: 120px;
+  top: 340px;
+  left: 120px;
+  background: whitesmoke;
+  margin: 10px;
+  border: white;
+}
+.ventani{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 250px;
+  left: 220px;
+  background: silver;
+  border:3px solid black;
+}
+.ventani2{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 250px;
+  left: 255px;
+  background: black;
+  border:3px solid whitesmoke;
+}
+.ventani3{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 285px;
+  left: 220px;
+  background: black;
+  border:3px solid whitesmoke;
+}
+.ventani4{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 285px;
+  left: 255px;
+  background: silver;
+  border:3px solid black;
+}
